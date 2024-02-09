@@ -18,7 +18,7 @@ def find_duplicate_words(str):
 def count_dict(str):
     words = nltk.word_tokenize(str)
     word_count = Counter(words)
-    print(word_count)
+    return word_count
 
 #find_duplicate_words(example_string)
 count_dict(example_string)
